@@ -1,0 +1,310 @@
+/* =====================================================
+GLOBAL SMOOTH TRANSITIONS
+===================================================== */
+
+*{
+transition:
+transform .25s ease,
+box-shadow .25s ease,
+border-color .25s ease,
+background .25s ease;
+}
+
+
+
+/* =====================================================
+SECTION SCROLL REVEAL
+===================================================== */
+
+.section{
+
+opacity:0;
+
+transform:translateY(60px);
+
+transition:
+opacity .7s ease,
+transform .7s ease;
+
+}
+
+.section.visible{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+
+/* =====================================================
+METRIC CARD
+===================================================== */
+
+.metric-card{
+
+position:relative;
+
+overflow:hidden;
+
+cursor:pointer;
+
+background:rgba(15,23,42,0.9);
+
+}
+
+.metric-card:hover{
+
+transform:translateY(-6px);
+
+box-shadow:0 0 25px rgba(34,211,238,0.35);
+
+}
+
+
+
+/* =====================================================
+METRIC BORDER ANIMATION
+===================================================== */
+
+.metric-card::before{
+
+content:"";
+
+position:absolute;
+
+top:0;
+left:0;
+
+width:100%;
+height:100%;
+
+border:2px solid #22d3ee;
+
+border-radius:10px;
+
+opacity:0;
+
+transform:scale(0.85);
+
+transition:.35s ease;
+
+}
+
+.metric-card:hover::before{
+
+opacity:1;
+
+transform:scale(1.08);
+
+}
+
+
+
+/* =====================================================
+METRIC NUMBER
+===================================================== */
+
+.metric-number{
+
+font-size:30px;
+
+font-weight:700;
+
+color:#22d3ee;
+
+letter-spacing:1px;
+
+}
+
+
+
+/* =====================================================
+BUTTON GLOW
+===================================================== */
+
+.resume-btn:hover{
+
+box-shadow:0 0 20px #22d3ee;
+
+transform:translateY(-2px);
+
+}
+
+
+
+/* =====================================================
+CARDS HOVER EFFECT
+===================================================== */
+
+.tool-card,
+.skill-card,
+.company-card,
+.experience-card,
+.project-card{
+
+transform:translateY(0);
+
+}
+
+.tool-card:hover,
+.skill-card:hover,
+.company-card:hover,
+.experience-card:hover,
+.project-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 10px 30px rgba(34,211,238,0.25);
+
+}
+
+
+
+/* =====================================================
+ICON HOVER
+===================================================== */
+
+.icon-btn img{
+
+transition:0.25s ease;
+
+}
+
+.icon-btn img:hover{
+
+transform:scale(1.15);
+
+filter:drop-shadow(0 0 8px #22d3ee);
+
+}
+
+
+
+/* =====================================================
+HERO TEXT ANIMATION
+===================================================== */
+
+#heroName{
+
+opacity:0;
+
+transform:translateX(-150px);
+
+animation:heroSlide 1.2s ease forwards;
+
+}
+
+#heroTitle{
+
+opacity:0;
+
+transform:translateX(-120px);
+
+animation:heroSlide 1.6s ease forwards;
+
+}
+
+#heroTagline{
+
+opacity:0;
+
+transform:translateX(-100px);
+
+animation:heroSlide 2s ease forwards;
+
+}
+
+
+
+/* =====================================================
+HERO SLIDE KEYFRAME
+===================================================== */
+
+@keyframes heroSlide{
+
+0%{
+opacity:0;
+transform:translateX(-150px);
+}
+
+100%{
+opacity:1;
+transform:translateX(0);
+}
+
+}
+
+
+
+/* =====================================================
+DEVOPS CARD GLOW ANIMATION
+===================================================== */
+
+@keyframes glowPulse{
+
+0%{
+box-shadow:0 0 5px rgba(34,211,238,0.2);
+}
+
+50%{
+box-shadow:0 0 25px rgba(34,211,238,0.4);
+}
+
+100%{
+box-shadow:0 0 5px rgba(34,211,238,0.2);
+}
+
+}
+
+.tool-card:hover{
+
+animation:glowPulse 2s infinite;
+
+}
+
+
+
+/* =====================================================
+BUTTON RIPPLE EFFECT
+===================================================== */
+
+.metric-card::after{
+
+content:"";
+
+position:absolute;
+
+width:10px;
+height:10px;
+
+background:rgba(34,211,238,0.4);
+
+border-radius:50%;
+
+opacity:0;
+
+pointer-events:none;
+
+}
+
+.metric-card:hover::after{
+
+animation:ripple 0.6s linear;
+
+}
+
+@keyframes ripple{
+
+0%{
+opacity:.6;
+transform:scale(1);
+}
+
+100%{
+opacity:0;
+transform:scale(20);
+}
+
+}

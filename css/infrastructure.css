@@ -1,0 +1,171 @@
+/* =========================
+INFRASTRUCTURE SECTION
+========================= */
+
+.infrastructure-map{
+
+margin-top:60px;
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+gap:40px;
+
+}
+
+
+
+/* =========================
+NODE CARD
+========================= */
+
+.infra-node{
+
+padding:18px 30px;
+
+border-radius:10px;
+
+background:linear-gradient(145deg,#0f172a,#1e293b);
+
+border:1px solid rgba(255,255,255,0.05);
+
+color:white;
+
+font-size:14px;
+
+text-align:center;
+
+min-width:200px;
+
+transition:0.3s;
+
+}
+
+.infra-node:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 0 20px rgba(34,211,238,0.35);
+
+}
+
+
+
+/* =========================
+CONNECTION LINE
+========================= */
+
+.infra-line{
+
+width:4px;
+
+height:40px;
+
+background:linear-gradient(
+
+180deg,
+rgba(34,211,238,0.2),
+rgba(34,211,238,0.7),
+rgba(34,211,238,0.2)
+
+);
+
+animation:pipelineFlow 2s linear infinite;
+
+}
+
+
+
+/* =========================
+FLOW ANIMATION
+========================= */
+
+@keyframes pipelineFlow{
+
+0%{
+
+opacity:0.2;
+
+}
+
+50%{
+
+opacity:1;
+
+}
+
+100%{
+
+opacity:0.2;
+
+}
+
+}
+
+.infrastructure-map{
+
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+justify-content:center;
+
+gap:20px;
+
+margin-top:40px;
+
+}
+
+.infra-node{
+
+background:rgba(15,23,42,0.9);
+
+border:1px solid rgba(255,255,255,0.08);
+
+padding:20px 26px;
+
+border-radius:12px;
+
+text-align:center;
+
+transition:0.3s;
+
+}
+
+.infra-node:hover{
+
+transform:translateY(-6px);
+
+border-color:#38bdf8;
+
+box-shadow:0 0 20px rgba(56,189,248,0.4);
+
+}
+
+.infra-icon{
+
+font-size:26px;
+
+margin-bottom:8px;
+
+}
+
+.infra-label{
+
+font-size:14px;
+
+color:#e2e8f0;
+
+}
+
+.infra-arrow{
+
+font-size:22px;
+
+color:#38bdf8;
+
+opacity:0.7;
+
+}

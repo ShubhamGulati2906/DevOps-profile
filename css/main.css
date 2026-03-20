@@ -1,0 +1,306 @@
+/* =====================================================
+GLOBAL RESET
+===================================================== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html,body{
+
+width:100%;
+min-height:100%;
+
+font-family:'Poppins',sans-serif;
+
+color:white;
+
+/* IMPORTANT — keep dark base */
+background:#020617;
+
+scroll-behavior:smooth;
+overflow-x:hidden;
+
+}
+
+
+
+/* =====================================================
+DEVOPS BACKGROUND SYSTEM
+===================================================== */
+
+/* PARTICLES BACKGROUND */
+
+#particles-js{
+
+position:fixed;
+
+top:0;
+left:0;
+
+width:100vw;
+height:100vh;
+
+pointer-events:none;
+
+z-index:-5;
+
+/* DARK DEVOPS COLOR */
+background:radial-gradient(
+circle at center,
+#020617 0%,
+#020617 40%,
+#01030a 100%
+);
+
+}
+
+
+
+/* NETWORK MESH */
+
+#devops-network{
+
+position:fixed;
+
+top:0;
+left:0;
+
+width:100vw;
+height:100vh;
+
+pointer-events:none;
+
+z-index:-4;
+
+}
+
+
+
+/* PIPELINE FLOW */
+
+#pipeline-flow{
+
+position:fixed;
+
+top:0;
+left:0;
+
+width:100vw;
+height:100vh;
+
+pointer-events:none;
+
+z-index:-3;
+
+}
+
+
+
+/* =====================================================
+OPTIONAL VIDEO BACKGROUND
+===================================================== */
+
+#bg-video{
+
+position:fixed;
+
+top:0;
+left:0;
+
+width:100vw;
+height:100vh;
+
+object-fit:cover;
+
+z-index:-6;
+
+filter:brightness(0.35);
+
+}
+
+
+
+/* =====================================================
+DARK OVERLAY (SO TEXT IS READABLE)
+===================================================== */
+
+.background-overlay{
+
+position:fixed;
+
+top:0;
+left:0;
+
+width:100vw;
+height:100vh;
+
+/* DARK GRADIENT */
+background:linear-gradient(
+180deg,
+rgba(2,6,23,0.65),
+rgba(2,6,23,0.90)
+);
+
+z-index:-2;
+
+pointer-events:none;
+
+}
+
+
+
+/* =====================================================
+SECTION LAYOUT
+===================================================== */
+
+.section{
+
+padding:110px 0;
+
+position:relative;
+
+z-index:3;
+
+background:transparent;
+
+}
+
+
+
+/* =====================================================
+SECTION TITLES
+===================================================== */
+
+.section-title{
+
+font-size:36px;
+
+font-weight:600;
+
+margin-bottom:50px;
+
+color:#22d3ee;
+
+letter-spacing:0.5px;
+
+}
+
+
+
+/* =====================================================
+TEXT STYLE
+===================================================== */
+
+p{
+
+color:#cbd5e1;
+
+line-height:1.7;
+
+font-size:16px;
+
+max-width:720px;
+
+}
+
+
+
+/* =====================================================
+CONTAINER WIDTH
+===================================================== */
+
+.container{
+
+max-width:1300px;
+
+width:100%;
+
+}
+
+
+
+/* =====================================================
+SCROLLBAR
+===================================================== */
+
+::-webkit-scrollbar{
+
+width:8px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:#020617;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#0ea5e9;
+
+border-radius:4px;
+
+}
+
+
+
+/* =====================================================
+LINK STYLE
+===================================================== */
+
+a{
+
+text-decoration:none;
+
+color:white;
+
+transition:0.25s;
+
+}
+
+a:hover{
+
+color:#22d3ee;
+
+}
+
+
+
+/* =====================================================
+UTILITY CLASSES
+===================================================== */
+
+.text-highlight{
+
+color:#22d3ee;
+
+font-weight:600;
+
+}
+
+.glow{
+
+box-shadow:0 0 15px rgba(34,211,238,0.4);
+
+}
+
+
+
+/* =====================================================
+CONTENT ABOVE BACKGROUND
+===================================================== */
+
+.hero-section,
+.section,
+.header,
+.footer{
+
+position:relative;
+
+z-index:5;
+
+}
