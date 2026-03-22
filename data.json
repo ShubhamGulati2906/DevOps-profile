@@ -152,9 +152,9 @@
 },
 {
 "company": "Qualcomm",
-"role": "DevOps Engineer",
-"duration": "Sep 2022 – Mar 2023",
-"location": "Gurugram",
+"role": "Senior IT Engineer",
+"duration": "Mar 2021 – Sep 2021",
+"location": "Hyderabad",
 "responsibilities": [
 "Migrated financial application infrastructure to AWS cloud.",
 "Built CI/CD pipelines automating build and deployment workflows.",
@@ -163,9 +163,9 @@
 },
 {
 "company": "Infosys Ltd.",
-"role": "Systems Engineer",
-"duration": "May 2021 – Sep 2022",
-"location": "Jaipur",
+"role": "Senior Associate Engineer",
+"duration": "Feb 2019 – Feb 2021",
+"location": "Hyderabad",
 "responsibilities": [
 "Developed automation scripts using Python and Bash.",
 "Managed Linux infrastructure supporting enterprise workloads.",
@@ -174,9 +174,9 @@
 },
 {
 "company": "Wipro Digital Technologies Ltd.",
-"role": "Systems Engineer",
-"duration": "May 2021 – Sep 2022",
-"location": "Jaipur",
+"role": "Platform Engineer",
+"duration": "June 2015 – Jan 2019",
+"location": "Hyderabad",
 "responsibilities": [
 "Developed automation scripts using Python and Bash.",
 "Managed Linux infrastructure supporting enterprise workloads.",
@@ -191,7 +191,7 @@
 "category": "Platform Engineering",
 "description": "Built Kubernetes infrastructure supporting microservices architecture.",
 "impact": "Enabled scalable application deployment.",
-"technologies": ["Kubernetes", "Docker", "Helm"]
+"technologies": ["Kubernetes", "Docker"]
 },
 {
 "name": "Terraform Infrastructure Framework",
@@ -215,50 +215,23 @@
 "technologies": ["Prometheus", "Grafana"]
 },
 {
-"name": "GitOps Deployment Platform",
-"category": "GitOps",
-"description": "Implemented GitOps workflows enabling automated Kubernetes deployments.",
-"impact": "Improved deployment transparency and rollback capabilities.",
-"technologies": ["ArgoCD", "Kubernetes"]
-},
-{
 "name": "Cloud Cost Optimization Framework",
 "category": "Cloud Engineering",
 "description": "Implemented infrastructure monitoring and optimization strategies.",
 "impact": "Reduced cloud costs through resource optimization.",
-"technologies": ["AWS", "CloudWatch"]
-}
-],
-
-"architectures": [
-{
-"name": "AWS Microservices Architecture",
-"image": "assets/architecture/aws-architecture.png"
-},
-{
-"name": "CI/CD Pipeline Architecture",
-"image": "assets/architecture/cicd-pipeline.png"
-},
-{
-"name": "Kubernetes Cluster Architecture",
-"image": "assets/architecture/kubernetes-architecture.png"
-},
-{
-"name": "Observability Platform Architecture",
-"image": "assets/architecture/monitoring-architecture.png"
+"technologies": ["AWS", "CloudWatch","CloudTrail"]
 }
 ],
 
 "certifications": [
-"Certified Kubernetes Administrator (CKA)",
-"Terraform Associate",
-"AWS Solutions Architect"
+"AWS Certified Solutions Architect – Associate",
+"AWS Certified Developer – Associate",
+"Terraform Associate"
 ],
 
 "education": {
-"degree": "B.Tech Computer Science",
-"institution": "Global Institute of Technology",
-"location": "Jaipur"
+"degree": "Bachelor of Computer Applications (BCA) and Master of Computer Applications (MCA)",
+"location": "UPRTOU AND UPTU Lucknow"
 },
 
 "achievements": [
