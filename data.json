@@ -1,31 +1,24 @@
 {
-"personal": {
-"name": "Shubham Gulati",
-"title": "DevOps & Platform Architect",
-"tagline": "Building scalable cloud platforms, Kubernetes ecosystems and enterprise DevOps automation systems.",
-"location": "Gurugram, India",
-
-"profileImage": "assets/profile.jpg",
-"resume": "assets/resume.pdf",
-
-"email": "shubhamgulatimca@gmail.com",
-"phone": "+919891416264",
-"whatsapp": "https://wa.me/919891416264",
-
-"linkedin": "https://www.linkedin.com/in/shubham-gulati-devopsengineer",
-"github": "https://github.com/ShubhamGulati2906"
-
-},
-
-"metrics": [
-{ "value": "13+", "label": "Years Experience" },
-{ "value": "50+", "label": "CI/CD Pipelines Built" },
-{ "value": "30+", "label": "Production Deployments" },
-{ "value": "15+", "label": "DevOps Tools Used" }
-],
-
-"summary": "DevOps & Platform Architect with 13+ years of experience designing cloud infrastructure, building Kubernetes platforms and developing enterprise CI/CD automation systems. Strong expertise in AWS architecture, Infrastructure as Code using Terraform, container orchestration with Kubernetes and observability platforms using Prometheus and Grafana. Passionate about improving platform reliability, engineering productivity and system scalability through DevOps automation and modern platform engineering practices.",
-
+  "personal": {
+    "name": "Shubham Gulati",
+    "title": "DevOps Engineer & Cloud Specialist",
+    "tagline": "Designing scalable cloud infrastructure, Kubernetes platforms, and automated CI/CD systems.",
+    "location": "Gurugram, India",
+    "profileImage": "assets/profile.jpg",
+    "resume": "assets/resume.pdf",
+    "email": "shubhamgulatimca@gmail.com",
+    "phone": "+919696919563",
+    "whatsapp": "https://wa.me/9696919563",
+    "linkedin": "https://www.linkedin.com/in/shubham-gulati-devopsengineer",
+    "github": "https://github.com/ShubhamGulati2906"
+  },
+  "metrics": [
+    { "value": "10+", "label": "Years Experience" },
+    { "value": "50+", "label": "CI/CD Pipelines Automated" },
+    { "value": "30+", "label": "Production Deployments" },
+    { "value": "15+", "label": "DevOps Tools & Technologies" }
+  ],
+  "summary": "DevOps Engineer & Cloud Specialist with 10+ years of experience designing scalable cloud infrastructure, implementing CI/CD pipelines, and automating end-to-end deployment workflows. Strong expertise in AWS architecture, Infrastructure as Code using Terraform, and containerization with Docker and Kubernetes.\n\nExperienced in building reliable monitoring and observability solutions using Prometheus, Grafana, CloudWatch, and Nagios, along with automation using Python and Jenkins. Proven track record in cloud migration, disaster recovery planning, and performance optimization.\n\nPassionate about improving system reliability, scalability, and engineering efficiency through DevOps best practices and modern cloud-native solutions.",
 "devopsStack": {
 
 "Platforms": [
@@ -46,8 +39,7 @@
 
 "CI/CD Platforms": [
   "Jenkins",
-  "GitHub Actions",
-  "ArgoCD"
+  "GitHub Actions"
 ],
 
 "Monitoring & Observability": [
@@ -82,29 +74,19 @@
 "industry": "Retail Technology"
 },
 {
-"name": "Nokia",
-"logo": "assets/company/Nokia.png",
-"industry": "Telecom"
+"name": "Qualcomm",
+"logo": "assets/company/Qualcomm.jpg",
+"industry": "Global Wireless IT Industry"
 },
 {
-"name": "Global Logic",
-"logo": "assets/company/Global Logic.png",
-"industry": "Telecom"
+"name": "Infosys",
+"logo": "assets/company/infosys.jpg",
+"industry": "IT Services and Consulting"
 },
 {
-"name": "TCS",
-"logo": "assets/company/TCS.png",
-"industry": "Cloud Engineering"
-},
-{
-"name": "Aricent",
-"logo": "assets/company/Aricent.png",
-"industry": "Telecom"
-},
-{
-"name": "HCL Technologies",
-"logo": "assets/company/HCL.png",
-"industry": "Retail technology"
+"name": "Wipro",
+"logo": "assets/company/Wipro.png",
+"industry": "Cloud Computing and IT Services"
 }
 ],
 
@@ -145,7 +127,7 @@
 "Databases": [
   { "name": "MySQL", "level": 4 },
   { "name": "PostgreSQL", "level": 4 },
-  { "name": "Redis", "level": 4 }
+  { "name": "RDS", "level": 4 }
 ],
 
 "Data Platforms": [
@@ -158,7 +140,7 @@
 {
 "company": "Adidas",
 "role": "Senior DevOps Engineer",
-"duration": "Apr 2023 – Present",
+"duration": "Sep 2021 – Present",
 "location": "Gurugram",
 "responsibilities": [
 "Designed Kubernetes infrastructure supporting microservices based retail applications.",
@@ -169,7 +151,7 @@
 ]
 },
 {
-"company": "Nokia",
+"company": "Qualcomm",
 "role": "DevOps Engineer",
 "duration": "Sep 2022 – Mar 2023",
 "location": "Gurugram",
@@ -180,7 +162,7 @@
 ]
 },
 {
-"company": "Global Logic",
+"company": "Infosys Ltd.",
 "role": "Systems Engineer",
 "duration": "May 2021 – Sep 2022",
 "location": "Jaipur",
@@ -191,29 +173,7 @@
 ]
 },
 {
-"company": "TCS",
-"role": "Systems Engineer",
-"duration": "May 2021 – Sep 2022",
-"location": "Jaipur",
-"responsibilities": [
-"Developed automation scripts using Python and Bash.",
-"Managed Linux infrastructure supporting enterprise workloads.",
-"Implemented monitoring solutions improving operational visibility."
-]
-},
-{
-"company": "Aricent",
-"role": "Systems Engineer",
-"duration": "May 2021 – Sep 2022",
-"location": "Jaipur",
-"responsibilities": [
-"Developed automation scripts using Python and Bash.",
-"Managed Linux infrastructure supporting enterprise workloads.",
-"Implemented monitoring solutions improving operational visibility."
-]
-},
-{
-"company": "TCS",
+"company": "Wipro Digital Technologies Ltd.",
 "role": "Systems Engineer",
 "duration": "May 2021 – Sep 2022",
 "location": "Jaipur",
